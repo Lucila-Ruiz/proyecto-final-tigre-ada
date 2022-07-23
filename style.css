@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 40px ;
+    padding-left: 40px;
+    background-image: url('https://envato-shoebox-0.imgix.net/6fe6/c858-bf7d-43d9-91be-bca4eb39ca42/1-05673.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=590865c9e89ea570da2f98188c4790ef');
+    
+}
+
+nav{
+    background: #fafad2;
+    background: linear-gradient(90deg,#fafad2 30%, #eab83f 60%);
+    background: -webkit-linear-gradient(90deg,#fafad2 30%, #eab83f 60%);
+    background: -moz-linear-gradient(90deg,#fafad2 30%, #eab83f 60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100vw;
+    margin-bottom: 20px;
+    
+}
+
+nav .menu{
+    background-color: rgb(232, 108, 0);
+    color: white;
+}
+
+a{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-family: 'Keania One', cursive;
+    font-size: xx-large;
+    color:rgb(129, 13, 13) ;
+}
+
+
+#tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: rgba(232,108,0,0);
+    background: radial-gradient(circle farthest-corner at center center, rgba(232,108,0,0) 0%, rgba(232,108,0,0.39) 20%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, rgba(232,108,0,0) 0%, rgba(232,108,0,0.39) 20%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, rgba(232,108,0,0) 0%, rgba(232,108,0,0.39) 20%);
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: lightgoldenrodyellow;
+    
+}
+
+
+p{
+    color: rgb(129, 13, 13);
+    font-family: 'Dorsa', sans-serif;
+    font-weight: bolder;
+    font-size:large;
+    letter-spacing: 1px;
+  
+}
+
+img{
+    border: 2px solid transparent;
+    background-size: auto;
+}
+
+
+footer{
+background: #fafad2;
+background: linear-gradient(90deg,#fafad2 30%, #eab83f 60%);
+background: -webkit-linear-gradient(90deg,#fafad2 30%, #eab83f 60%);
+background: -moz-linear-gradient(90deg,#fafad2 30%, #eab83f 60%);
+ height: 50px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: rgb(129, 13, 13);
+ font-family: 'Dorsa', sans-serif; 
+ font-style: italic;
+ font-weight: bolder;
+ font-size: x-large;
+ letter-spacing: 2px;
+ margin-top: 20px;
+}
+
